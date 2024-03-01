@@ -25,5 +25,5 @@ jobs:
     - name: Push to dockerhub
       run: |
         echo "Docker login successful. Pushing the image..."
-        docker push josefernando7/cicd-pipeline:latest
+        docker push josefernando7/cicd-pipeline
         echo "Image pushed successfully."
