@@ -23,4 +23,4 @@ jobs:
     - name: List the docker images
       run: docker images
     - name: Push to dockerhub
-      run: docker push josefernando7/cicd-pipeline:latest
+      run: docker push JoseFernando7/cicd-pipeline:latest
